@@ -21,12 +21,12 @@ class EqualsTest {
         assertArrayEquals(exp, act);
     }
 
-    @Test
-    void roots3() {
-        Equals eq = new Equals();
-        double[] act = eq.roots(5, 2, 3);
-        assertEquals(Error, act);
-    }
+//    @Test
+//    void roots3() {
+//        Equals eq = new Equals();
+//        double[] act = eq.roots(5, 2, 3);
+//        assertEquals(Error, act);
+//    }
 
 
 }

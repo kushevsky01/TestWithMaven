@@ -8,7 +8,7 @@ class calculateTest {
     void sum() {
         calculate cal = new calculate();
         double sum = cal.sum(5, 1.1);
-        assertEquals(6, sum);
+        assertEquals(6.1, sum);
     }
 
     @Test
